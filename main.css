@@ -1,0 +1,11 @@
+#toolList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#toolList li a {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
