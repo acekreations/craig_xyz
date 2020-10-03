@@ -81,19 +81,3 @@ body {
   font-size: 2em;
   font-family: "Roboto", sans-serif;
 }
-
-.logo {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background-color: #8b47ff;
-  border-top-left-radius: 15px;
-  padding: 14px 18px;
-}
-.logo a {
-  text-decoration: none;
-  color: #ffffff;
-  letter-spacing: 1px;
-  font-size: 1.4em;
-  font-family: "Abril Fatface", cursive;
-}
