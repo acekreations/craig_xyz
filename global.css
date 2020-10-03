@@ -155,11 +155,11 @@ a {
   color: #2d7ef9;
   text-decoration: none;
   font-weight: bold;
-  transition: all 0.3s;
+  transition: opacity 0.3s;
 }
 
 a:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 #logo {
