@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/animate-min.css" />
+    <title>Self Guided Meditation Timer</title>
+    <script
+      src="https://kit.fontawesome.com/bc0c1d2822.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="container" class="animated fadeIn delay-1s">
+      <div class="logo">
+        <a href="https://www.craig.xyz">
+          craig.xyz
+        </a>
+      </div>
+      <div id="sidebar" class="animated slideInLeft delay-1s">
+        <div id="play">
+          <i id="play-btn" class="fas fa-play fa-lg"></i>
+          <i id="stop-btn" class="fas fa-stop fa-lg"></i>
+        </div>
+        <!-- <div>
+          <i class="far fa-clock fa-lg"></i>
+        </div>
+        <div>
+          <i class="fas fa-music fa-lg"></i>
+        </div> -->
+      </div>
+
+      <div id="countdown">
+        <h2 id="countdown-text">10:00</h2>
+      </div>
+
+      <div id="right-spacer"></div>
+
+      <h1 id="title">Self Guided Meditation Timer</h1>
+
+      <audio id="player" loop>
+        <source id="player-source" src="" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
