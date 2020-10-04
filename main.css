@@ -41,7 +41,7 @@ main h3 {
 }
 
 @media only screen and (max-width: 700px) {
-  .toolList {
+  .tool-list {
     grid-template-columns: 1fr;
   }
 }
