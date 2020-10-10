@@ -200,7 +200,7 @@ header {
 
 .link-icon {
   background-color: #8b47ff;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   padding: 10px 18px;
