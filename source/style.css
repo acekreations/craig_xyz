@@ -1,0 +1,48 @@
+/* colors */
+/* background: #fff */
+/* foreground: #000 */
+/* accent: #6c38c6 */
+/* subtle accent: #cccccc */
+
+body {
+  background: #494442;
+  background: #fff;
+  max-width: 800px;
+  margin: 5rem auto 3rem auto;
+  color: rgb(243, 243, 243);
+  color: #000;
+  letter-spacing: 0.1rem;
+  font-family: Didot, serif;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+p {
+  line-height: 1.8rem;
+  letter-spacing: 0.07rem;
+}
+
+a {
+  color: #000;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  border-top: 1px dashed #cccccc;
+  border-bottom: none;
+}
+
+figure {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 90vh;
+  margin: 3rem auto;
+  display: block;
+}
