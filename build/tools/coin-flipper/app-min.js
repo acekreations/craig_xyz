@@ -1,0 +1,1 @@
+window.onload=function(){flipCoin(),document.addEventListener("touchstart",(function(){}),!0)},flipCoin=()=>{var o=document.querySelector(".coin");o.addEventListener("click",(function(){var n=Math.floor(11*Math.random());coinToggle(o,n,0,coinToggle)}))},coinToggle=(o,n,i,t)=>{o.classList.toggle("is-flipped"),i<n&&(i++,setTimeout((function(){t(o,n,i,t)}),200))};

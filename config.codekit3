@@ -23,14 +23,6 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
-	"/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/index.html",
-		"oF": 0
-		},
 	"/source/coding/css-fun.md": {
 		"cB": 0,
 		"cS": 0,
@@ -436,9 +428,9 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/header.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
-		"oS": 0,
+		"oS": 1,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
@@ -761,208 +753,208 @@
 		"oF": 2,
 		"oS": 3
 		},
-	"/tools/coin-flipper/app.js": {
+	"/source/tools/coin-flipper/app.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/coin-flipper/app-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
-	"/tools/coin-flipper/index.html": {
+	"/source/tools/coin-flipper/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/coin-flipper/index.html",
-		"oF": 0
+		"oF": 1
 		},
-	"/tools/coin-flipper/main.css": {
+	"/source/tools/coin-flipper/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/coin-flipper/main-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
-	"/tools/global.css": {
+	"/source/tools/global.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/global-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
-	"/tools/index.html": {
+	"/source/tools/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/index.html",
-		"oF": 0
+		"oF": 1
 		},
-	"/tools/main.css": {
+	"/source/tools/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/main-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
-	"/tools/self-guided-meditation-timer/.gitignore": {
+	"/source/tools/self-guided-meditation-timer/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
-	"/tools/self-guided-meditation-timer/assets/and-breathe.psd": {
+	"/source/tools/self-guided-meditation-timer/assets/and-breathe.psd": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/assets/and-breathe.psd",
-		"oF": 0
+		"oF": 1
 		},
-	"/tools/self-guided-meditation-timer/assets/animate-min.css": {
+	"/source/tools/self-guided-meditation-timer/assets/animate-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/assets/animate-min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
-	"/tools/self-guided-meditation-timer/assets/audio/event-horizon.mp3": {
+	"/source/tools/self-guided-meditation-timer/assets/audio/event-horizon.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/assets/audio/event-horizon.mp3",
-		"oF": 0
+		"oF": 1
 		},
-	"/tools/self-guided-meditation-timer/assets/bg.jpg": {
+	"/source/tools/self-guided-meditation-timer/assets/bg.jpg": {
 		"ft": 16384,
 		"iS": 555932,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/assets/bg.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"/tools/self-guided-meditation-timer/assets/bg2 copy.jpg": {
+	"/source/tools/self-guided-meditation-timer/assets/bg2 copy.jpg": {
 		"ft": 16384,
 		"iS": 3112699,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/assets/bg2 copy.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"/tools/self-guided-meditation-timer/assets/bg2.1.jpg": {
+	"/source/tools/self-guided-meditation-timer/assets/bg2.1.jpg": {
 		"ft": 16384,
 		"iS": 829898,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/assets/bg2.1.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"/tools/self-guided-meditation-timer/assets/bg2.jpg": {
+	"/source/tools/self-guided-meditation-timer/assets/bg2.jpg": {
 		"ft": 16384,
 		"iS": 3112699,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/assets/bg2.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"/tools/self-guided-meditation-timer/assets/robin-benzrihem-YDLiKD8ZLeA-unsplash.jpg": {
+	"/source/tools/self-guided-meditation-timer/assets/robin-benzrihem-YDLiKD8ZLeA-unsplash.jpg": {
 		"ft": 16384,
 		"iS": 3112699,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/assets/robin-benzrihem-YDLiKD8ZLeA-unsplash.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"/tools/self-guided-meditation-timer/index.html": {
+	"/source/tools/self-guided-meditation-timer/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/index.html",
-		"oF": 0
+		"oF": 1
 		},
-	"/tools/self-guided-meditation-timer/main.js": {
+	"/source/tools/self-guided-meditation-timer/main.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/main-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
-	"/tools/self-guided-meditation-timer/style.css": {
+	"/source/tools/self-guided-meditation-timer/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/self-guided-meditation-timer/style-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
-	"/tools/svg-code-editor/app.js": {
+	"/source/tools/svg-code-editor/app.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/svg-code-editor/app-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
-	"/tools/svg-code-editor/index.html": {
+	"/source/tools/svg-code-editor/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/svg-code-editor/index.html",
-		"oF": 0
+		"oF": 1
 		},
-	"/tools/svg-code-editor/main.css": {
+	"/source/tools/svg-code-editor/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/tools/svg-code-editor/main-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		}
 	},
