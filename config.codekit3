@@ -829,15 +829,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/source/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"/source/style.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 0,
+		"eL": 0,
+		"ema": 0,
+		"eSQ": 0,
+		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/style.css",
-		"oF": 2,
-		"oS": 3
+		"oAP": "/build/style.html",
+		"oF": 3,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 0,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/source/tools/coin-flipper/app.js": {
 		"bF": 0,
