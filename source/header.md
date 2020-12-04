@@ -1,5 +1,7 @@
-## Craig Melville
+# Craig Melville
 
-[Home](/) - [Coding](/coding) - [Design](/design) - [Photography](/photography)
+[Home](/) | [Coding](/coding) | [Design](/design) | [Photography](/photography)
 
 ---
+
+<div id="content">

@@ -3,7 +3,7 @@ CSS: style.css
 
 {{header.md}}
 
-# Welcome
+## Welcome
 
 My name is Craig and I am a creator and engineer.
 
