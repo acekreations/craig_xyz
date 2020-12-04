@@ -833,10 +833,10 @@
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "/build/style-min.css",
-		"oF": 0,
+		"oAP": "/build/style.css",
+		"oF": 3,
 		"oS": 3
 		},
 	"/source/tools/coin-flipper/app.js": {
