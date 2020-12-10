@@ -1,1 +1,83 @@
-var audioFiles=[{name:"event horizon",file:"assets/audio/event-horizon.mp3"}],duration=10,audioFile=audioFiles[0],timeDelta=0,meditationRunning=!1;function start(e,t){t.src=audioFile.file,e.load(),e.volume=1,meditationRunning=!0,e.play(),timer(e)}function fadeVolumeDown(e){i=setInterval((function(){e.volume>.1?e.volume=e.volume-.1:clearInterval(i)}),50)}function msToTime(e){return seconds=Math.floor(e/1e3%60),minutes=Math.floor(e/6e4%60),minutes=minutes<10?"0"+minutes:minutes,seconds=seconds<10?"0"+seconds:seconds,minutes+":"+seconds}function timer(e){timeDelta=60*duration*1e3;var t=setInterval((function(){timeDelta<=1e3&&fadeVolumeDown(e),0==timeDelta?(clearInterval(t),e.pause(),meditationRunning=!1,document.getElementById("play-btn").style.display="block",document.getElementById("stop-btn").style.display="none"):(timeDelta-=1e3,document.getElementById("countdown-text").textContent=msToTime(timeDelta))}),1e3)}function stop(e){fadeVolumeDown(e),setTimeout((function(){timeDelta=0}),500)}window.onload=function(){var e=document.getElementById("player"),t=document.getElementById("player-source");document.getElementById("play").addEventListener("click",(function(){meditationRunning?stop(e):(document.getElementById("play-btn").style.display="none",document.getElementById("stop-btn").style.display="block",start(e,t))}))};
+var audioFiles = [
+  {
+    name: "event horizon",
+    file: "assets/audio/event-horizon.mp3"
+  }
+];
+var duration = 10;
+var audioFile = audioFiles[0];
+var timeDelta = 0;
+var meditationRunning = false;
+
+function start(player, playerSource) {
+  playerSource.src = audioFile.file;
+  player.load();
+  player.volume = 1;
+  meditationRunning = true;
+  player.play();
+  timer(player);
+}
+
+function fadeVolumeDown(player) {
+  i = setInterval(function() {
+    if (player.volume > 0.1) {
+      player.volume = player.volume - 0.1;
+    } else {
+      clearInterval(i);
+    }
+  }, 50);
+}
+
+function msToTime(duration) {
+  //   var milliseconds = parseInt((duration % 1000) / 100),
+  (seconds = Math.floor((duration / 1000) % 60)),
+    (minutes = Math.floor((duration / (1000 * 60)) % 60)),
+    (minutes = minutes < 10 ? "0" + minutes : minutes);
+  seconds = seconds < 10 ? "0" + seconds : seconds;
+
+  return minutes + ":" + seconds;
+}
+
+function timer(player) {
+  timeDelta = duration * 60 * 1000;
+  var timer = setInterval(function() {
+    if (timeDelta <= 1000) {
+      fadeVolumeDown(player);
+    }
+    if (timeDelta == 0) {
+      clearInterval(timer);
+      player.pause();
+      meditationRunning = false;
+      document.getElementById("play-btn").style.display = "block";
+      document.getElementById("stop-btn").style.display = "none";
+    } else {
+      timeDelta -= 1000;
+      document.getElementById("countdown-text").textContent = msToTime(
+        timeDelta
+      );
+    }
+  }, 1000);
+}
+
+function stop(player) {
+  fadeVolumeDown(player);
+  setTimeout(function() {
+    timeDelta = 0;
+  }, 500);
+}
+
+window.onload = function() {
+  var player = document.getElementById("player");
+  var playerSource = document.getElementById("player-source");
+
+  var playBtn = document.getElementById("play");
+  playBtn.addEventListener("click", function() {
+    if (meditationRunning) {
+      stop(player);
+    } else {
+      document.getElementById("play-btn").style.display = "none";
+      document.getElementById("stop-btn").style.display = "block";
+      start(player, playerSource);
+    }
+  });
+};

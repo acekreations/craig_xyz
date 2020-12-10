@@ -1,1 +1,35 @@
-h1{margin-bottom:9px}main{display:grid;grid-template-columns:1fr 1fr}#summary{margin:40px 2.5% 50px 2.5%;padding:0px;width:50%}#ace_html{width:90%;min-height:35em;margin:0px auto;border:1px solid silver}@media only screen and (max-width: 700px){main{grid-template-columns:1fr}#summary{width:95%}#svgArea{margin-top:40px}}
+h1 {
+  margin-bottom: 9px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#summary {
+  margin: 40px 2.5% 50px 2.5%;
+  padding: 0px;
+  width: 50%;
+}
+
+#ace_html {
+  width: 90%;
+  min-height: 35em;
+  margin: 0px auto;
+  border: 1px solid silver;
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  #summary {
+    width: 95%;
+  }
+
+  #svgArea {
+    margin-top: 40px;
+  }
+}

@@ -1,1 +1,22 @@
-window.onload=function(){flipCoin(),document.addEventListener("touchstart",(function(){}),!0)},flipCoin=()=>{var o=document.querySelector(".coin");o.addEventListener("click",(function(){var n=Math.floor(11*Math.random());coinToggle(o,n,0,coinToggle)}))},coinToggle=(o,n,i,t)=>{o.classList.toggle("is-flipped"),i<n&&(i++,setTimeout((function(){t(o,n,i,t)}),200))};
+window.onload = function() {
+  flipCoin();
+  document.addEventListener("touchstart", function() {}, true);
+};
+
+flipCoin = () => {
+  var coin = document.querySelector(".coin");
+  coin.addEventListener("click", function() {
+    var randNum = Math.floor(Math.random() * 11);
+    var i = 0;
+    coinToggle(coin, randNum, i, coinToggle);
+  });
+};
+coinToggle = (coin, randNum, i, cb) => {
+  coin.classList.toggle("is-flipped");
+  if (i < randNum) {
+    i++;
+    setTimeout(function() {
+      cb(coin, randNum, i, cb);
+    }, 200);
+  }
+};
