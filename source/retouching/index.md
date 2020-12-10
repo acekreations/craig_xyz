@@ -2,7 +2,7 @@ CSS: ../style.css
 
 {{../header.md}}
 
-Photography / Retouching
+Retouching
 
 ---
 
