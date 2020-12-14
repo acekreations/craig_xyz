@@ -7,7 +7,7 @@ CSS: style.css
 
 My name is Craig and I am a creator and engineer.
 
-![](./images/profile.webp)
+![](./images/profile.jpg)
 
 ## Background
 
