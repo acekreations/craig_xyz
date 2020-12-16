@@ -23,6 +23,6 @@ I sit somewhere between an artist, an engineer, a thinker, and an entrepreneur. 
 
 ## Endeavours
 
-I’ve started more businesses than I can remember. Not a single one of those business has ever out earned my day job. I tell you this because I think it’s important to acknowledge our failures, and recognize that with every failure there was great success in learning. I may have never been able to quit my day job to work for myself but I learned how to incorporate a partnership, I learned accounting, marketing, material sourcing, budgeting, taxes, product market fit,
+I’ve started more businesses than I can remember. Not a single one of those business has ever out earned my day job. I tell you this because I think it’s important to acknowledge our failures, and recognize that with every failure there was great success in learning. I may have never been able to quit my day job but I've gained several college degrees worth of knowlegde in the process.
 
 {{footer.md}}
