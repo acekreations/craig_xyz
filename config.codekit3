@@ -17,12 +17,6 @@
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
-	"/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
-		},
 	"/source/coding/css-fun.md": {
 		"cB": 0,
 		"cS": 0,
@@ -268,12 +262,12 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/source/design/images/Innvoice.png": {
+	"/source/design/images/innvoice1.png": {
 		"ft": 32768,
 		"iS": 117585,
-		"oA": 2,
-		"oAP": "/build/design/images/Innvoice.png",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/build/design/images/innvoice1.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2356,7 +2350,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 629820892.10497797
+	"lastBuiltDate": 629841960.01294005
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

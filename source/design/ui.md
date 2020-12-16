@@ -6,7 +6,7 @@ Design / UI
 
 ---
 
-![](./images/innvoice.png)
+![](./images/innvoice1.png)
 ![](./images/website-analytics-mobile-final.png)
 ![](./images/travel-blog-final-2.png)
 ![](./images/kanban.png)
