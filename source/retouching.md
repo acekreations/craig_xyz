@@ -1,6 +1,6 @@
-CSS: ../style.css
+CSS: style.css
 
-{{../header.md}}
+{{header.md}}
 
 Retouching
 
