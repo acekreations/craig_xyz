@@ -17,6 +17,12 @@
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
 	"/source/coding/css-fun.md": {
 		"cB": 0,
 		"cS": 0,
@@ -739,9 +745,9 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/header.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
-		"oS": 1,
+		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
@@ -2115,6 +2121,14 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/source/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/robots.txt",
+		"oF": 0
+		},
 	"/source/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2122,7 +2136,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/build/style.css",
-		"oF": 3,
+		"oF": 2,
 		"oS": 3
 		},
 	"/source/tools/coin-flipper/app.js": {
@@ -2350,7 +2364,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 629841960.01294005
+	"lastBuiltDate": 629843191.86721504
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
