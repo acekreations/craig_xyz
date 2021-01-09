@@ -5,7 +5,7 @@ CSS: style.css
 
 ## Welcome
 
-My name is Craig and I an engineer and creator.
+My name is Craig and I am an engineer and creator.
 
 ![](./images/profile.jpg)
 
