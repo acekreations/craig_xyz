@@ -188,7 +188,7 @@
         copyLinks.forEach(copyLink => {
             copyLink.addEventListener("click", function(e){
                 var link = e.currentTarget.parentElement.getAttribute("id");
-                navigator.clipboard.writeText(window.location.hostname + "#" + link);
+                navigator.clipboard.writeText(window.location.hostname + "/#" + link);
                 e.currentTarget.innerText = "Link copied";
             })
         });
